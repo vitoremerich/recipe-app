@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .inputsLogin {
+    @apply w-full px-4 py-2 border-2  mb-2.5
+    text-gray-700 bg-white border-slate-200
+    rounded focus:border-purple-500 focus:bg-white leading-tight
+    focus:border-purple-500 focus:outline-none invalid:border-red-400;
+  }
+}

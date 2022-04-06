@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-field {
+  border-top: 1px solid rgb(243, 222, 198);
+  bottom: 0;
+  height: auto;
+  left: 0;
+  position: fixed;
+  width: 100%;
+}

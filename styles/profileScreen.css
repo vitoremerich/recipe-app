@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .profile {
+    @apply bg-violet-500 hover:bg-violet-600 rounded w-20 h-8 mt-3
+    active:bg-violet-700 focus:outline-none text-white font-serif
+    focus:ring focus:ring-violet-300 hover:shadow-lg disabled:bg-slate-500
+    w-full
+  }
+}

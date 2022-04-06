@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .explore-container {
+    @apply p-10 mb-2.5 flex flex-col gap-4
+    text-gray-700 bg-white
+    h-screen items-center text-center;
+  }
+  .expl-btn {
+    @apply w-full px-4 py-2 border-2 bg-violet-500 hover:bg-violet-600 hover:border-purple-500 active:bg-violet-700 focus:outline-none
+    border-slate-400 mb-2.5 rounded text-white;
+  }
+}
+

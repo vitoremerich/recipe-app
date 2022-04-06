@@ -1,0 +1,6 @@
+/* fonte:
+https://stackoverflow.com/questions/30975459/add-strikethrough-to-checked-checkbox */
+
+.ingredients:checked + span {
+  text-decoration: line-through;
+}
